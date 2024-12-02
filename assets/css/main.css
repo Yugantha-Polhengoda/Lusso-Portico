@@ -399,6 +399,12 @@ img {
     transform: translatex(0);
   }
 }
+
+.title-img {
+  width: 100%;
+  height: auto;
+}
+
 .image-anime {
   position: relative;
   overflow: hidden;
@@ -3967,9 +3973,23 @@ Location:
   background: var(--ztc-text-text-1);
   overflow-y: scroll;
 }
+
+.sidebarlogo {
+  width: 35px;
+  height: auto;
+}
+
+.sidebarlogotext {
+  width: 150px;
+  height: auto;
+}
+
 .mobile-sidebar.mobile-sidebar1 .logos {
-  height: 32px;
-  width: 180px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* height: 32px;
+  width: 180px; */
 }
 .mobile-sidebar.mobile-sidebar1 .mobile-nav.mobile-nav1 .mobile-nav-list.nav-list1 li a {
   font-weight: var(--ztc-weight-medium);

@@ -37,6 +37,11 @@ ul, li{
 
 /*Menu Css*/
 
+.mobile-logo {
+    display: flex;
+    gap: 5px;
+}
+
 .mobile-logo a{
     font-size: 20px;
     font-weight: 500;
