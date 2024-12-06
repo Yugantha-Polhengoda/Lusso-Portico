@@ -4057,6 +4057,76 @@ Location:
   border: 1px solid var(--ztc-text-text-4);
 }
 
+.Terms-body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f8f8f8; */
+}
+.Terms-header {
+      color: black;
+      padding: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .Terms-header-sub {
+      color: #5f5f5f;
+      margin-bottom: 5px;
+    }
+
+    .Terms-content-sec {
+      display: flex;
+      margin: 20px;
+    }
+
+    .Terms-content {
+      width: 25%;
+      background-color: #f1f1f1;
+      padding: 20px;
+      /* box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); */
+    }
+
+    .Terms-content ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .Terms-content ul li {
+      margin-bottom: 10px;
+    }
+
+    .Terms-content ul li a {
+      color: #0046be;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .Terms-content ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .article {
+      width: 75%;
+      padding: 20px;
+      background-color: white;
+      /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    }
+
+    .article h1 {
+      color: #333;
+    }
+
+    .article h2 {
+      color: #333;
+      font-size: 24px;
+      
+    }
+    .article p {
+      color: #5f5f5f;
+      margin-left: 28px;
+    }
+
 .mobile-header.mobile-haeder2 {
   background: var(--ztc-text-text-1);
   position: fixed;
@@ -13392,11 +13462,14 @@ Location:
 /* Thumbnails */
 .carousel-thumbnails {
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 15px;
   gap: 10px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+
+
 
 .thumbnail {
   width: 120px;
