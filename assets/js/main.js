@@ -551,6 +551,7 @@
     });
     });
     }
+    
   //========== Images AREA ============= //
     if($('.reveal').length)
       {gsap.registerPlugin(ScrollTrigger);

@@ -2030,12 +2030,13 @@ Location:
   transition: all 0.4s;
 }
 .service1-section-area .service-boxarea:hover .content-area {
+  padding-top: 70px;
   height: 104px;
   transition: all 0.6s;
 }
 .service1-section-area .service-boxarea:hover .content-area .readmore {
   bottom: 0;
-  height: 30px;
+  height: 40px;
   transition: all 0.6s;
   visibility: visible;
   opacity: 1;
@@ -5690,6 +5691,13 @@ Location:
 /*============= BLOG CSS AREA ENDS ===============*/
 /*============= FOOTER CSS AREA ===============*/
 .footer1-section-area {
+  /* background: url(../img/logo/footer4.png); */
+  background: linear-gradient( rgb(253, 253, 253, 0.7), rgb(18, 34, 59, 0.4)), url(../img/logo/footer4.png);
+  /* background: linear-gradient( rgba(18, 34, 59, 0.7), rgb(253, 253, 253) ), url(../img/logo/footer3.png); */
+  /* background: linear-gradient( rgb(253, 253, 253, 0.7), rgb(18, 34, 59, 0.4)); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   z-index: 1;
   padding: 100px 0 32px;
@@ -5867,7 +5875,7 @@ Location:
   align-items: center;
   justify-content: space-between;
   padding: 30px 0 0 0;
-  border-top: 1px solid #E5E7EB;
+  border-top: 1px solid #bababa;
   margin-top: 30px;
 }
 @media (max-width: 767px) {
@@ -14896,6 +14904,42 @@ Location:
   -o-object-fit: cover;
      object-fit: cover;
   margin: 0 8px 0 0;
+}
+
+
+
+/*----------------------------------------*/
+/*  19. projects
+/*----------------------------------------*/
+.categories-container {
+  text-align: center;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid rgb(193, 193, 193);
+  /* border-color: #a8a8a8; */
+  transition: background-color 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: #ffaf01;
+}
+
+.item.hidden {
+  transform: scale(0.8);
+  opacity: 0;
+  pointer-events: none;
+  display: none;
 }
 
 /*============= COST CSS AREA ===============*//*# sourceMappingURL=main.css.map */
